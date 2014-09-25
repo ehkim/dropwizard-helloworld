@@ -69,5 +69,11 @@
             <artifactId>dropwizard-core</artifactId>
             <version>0.6.2</version>
         </dependency>
+        <dependency>
+        	<groupId>org.fitnesse</groupId>
+        	<artifactId>fitnesse</artifactId>
+        	<version>20140901</version>
+        	<scope>runtime</scope>
+        </dependency>
     </dependencies>
 </project>
