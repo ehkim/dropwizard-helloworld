@@ -6,7 +6,9 @@ import com.yammer.dropwizard.config.Environment;
 
 public class HelloWorldService extends Service<HelloWorldConfiguration> {
     public static void main(String[] args) throws Exception {
-        new HelloWorldService().run(args);
+        //new HelloWorldService().run(args);
+        
+        System.out.println( "Hello World!" );
     }
 
     @Override
