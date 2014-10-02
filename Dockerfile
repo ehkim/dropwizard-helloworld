@@ -7,4 +7,4 @@ ADD hello-world.yml /
 
 CMD ["java", "-jar", "dropwizard-helloworld-1.0-SNAPSHOT.jar", "server", "hello-world.yml"]
 
-EXPOSE 8080
+EXPOSE 3000
